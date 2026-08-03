@@ -40,6 +40,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[Invariant](https://github.com/invariantlabs-ai/invariant)** - Guardrails for secure and robust agent development, enforcing runtime policies over agent traces and tool calls.
 - **[LLM Guard](https://github.com/protectai/llm-guard)** *(archived)* - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content. Archived by Protect AI in 2026 and no longer maintained; listed for reference only.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
+- **[AgentHost](https://github.com/Stevekaplanai/agenthost)** - Self-hosted control plane that moves a local AI agent harness (Claude Code, Hermes) into a 24/7 container in the user's own Fly.io account, with cookie-walled web access, per-agent scoped credentials, and human approval gates for irreversible actions.
 
 ## 🌐 Gateways & Proxies
 *Mediating traffic between agents, tools, and models — the network layer of the control plane.*
