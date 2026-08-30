@@ -37,6 +37,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps, keeping agents on topic and enforcing safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM inputs/outputs against structural and semantic rules.
 - **[Invariant](https://github.com/invariantlabs-ai/invariant)** - Guardrails for secure and robust agent development, enforcing runtime policies over agent traces and tool calls.
+- **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** - Self-hosted agent runtime with MCP tool permissions, approvals, credential handling, audit/replay, and Docker/Kubernetes sandbox providers.
 - **[LLM Guard](https://github.com/protectai/llm-guard)** *(archived)* - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content. Archived by Protect AI in 2026 and no longer maintained; listed for reference only.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
 
