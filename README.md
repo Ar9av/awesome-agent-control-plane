@@ -81,6 +81,7 @@ This list is organized around that lifecycle rather than around any single vendo
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark evaluating an AI agent's ability to exploit real-world web application vulnerabilities.
 - **[DeepEval](https://github.com/confident-ai/deepeval)** - An LLM evaluation framework with test cases for hallucination, bias, and security-relevant failure modes.
+- **[Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)** - An open database of 354 sourced records of real-world AI agent security events (prompt injection, destructive actions, sandbox escapes, agent supply chain), each flagged for whether harm to a victim was confirmed.
 - **[PINT Benchmark](https://github.com/lakeraai/pint-benchmark)** - A benchmark for evaluating prompt injection detection systems.
 
 ## 🧩 Agent Frameworks (control-plane-adjacent)
