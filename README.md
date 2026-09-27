@@ -104,3 +104,6 @@ Tools should be actively maintained (a commit within the last 12 months) and dir
 ## License
 
 [CC0](LICENSE) - This work is in the public domain, following the [awesome list](https://github.com/sindresorhus/awesome) convention.
+## Hosted AI Gateways
+
+- **[APIClaw](https://apiclaw.biz)** - A hosted flat-rate OpenAI-compatible AI API gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM, with plans from $19/month and a 50-request free trial.
