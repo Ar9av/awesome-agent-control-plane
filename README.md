@@ -86,6 +86,7 @@ This list is organized around that lifecycle rather than around any single vendo
 ## 🧩 Agent Frameworks (control-plane-adjacent)
 *Frameworks for building agents that the tools above are typically layered onto.*
 
+- **[Agent Barn](https://github.com/aai-labs/agent-barn)** - An open-source (Apache-2.0) control plane for AI agents that records every conversation, tool call, log and cost, runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster via Helm, and connects Slack, Teams, Telegram, Discord and email.
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** - A framework for building, orchestrating, and deploying AI agents and multi-agent workflows (Python and .NET).
 
 ---
