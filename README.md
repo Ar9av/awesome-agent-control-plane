@@ -40,6 +40,8 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[LLM Guard](https://github.com/protectai/llm-guard)** *(archived)* - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content. Archived by Protect AI in 2026 and no longer maintained; listed for reference only.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
 
+- **[Praesidia](https://praesidia.ai/)** - Runtime authorization for registered or routed AI agent and MCP tool actions, with policy decisions, human approval workflows, and signed decision evidence; offers a free Developer plan.
+
 ## 🌐 Gateways & Proxies
 *Mediating traffic between agents, tools, and models — the network layer of the control plane.*
 
