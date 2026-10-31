@@ -40,6 +40,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[LLM Guard](https://github.com/protectai/llm-guard)** *(archived)* - A security toolkit for LLM interactions, scanning prompts and outputs for prompt injection, PII, and toxic content. Archived by Protect AI in 2026 and no longer maintained; listed for reference only.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
 
+- **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - Decentralized Rust EDR and 7-Ring AI agent control plane enforcing formal Cedar policies, behavioral drift tracking, out-of-sandbox credential sealing, and multi-voter consensus.
 ## 🌐 Gateways & Proxies
 *Mediating traffic between agents, tools, and models — the network layer of the control plane.*
 
@@ -58,6 +59,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[Agent-Infra Sandbox](https://github.com/agent-infra/sandbox)** - An all-in-one sandbox combining browser, shell, VSCode, and file-system access in a single Docker container for agentic tasks.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin; includes a secure runtime environment for autonomous coding agents to operate without touching the host machine's sensitive files.
 
+- **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - Cross-platform AI agent containment runtime providing zero-overhead Wasmtime, Windows AppContainer, and Linux Landlock v3 + seccomp-bpf sandboxing for autonomous agent tool execution.
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools that test agents for security flaws, unauthorized actions, and injection susceptibility.*
 
