@@ -41,6 +41,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project detecting and blocking AI agent memory poisoning (OWASP ASI06), with drop-in middleware for LangChain, AutoGen, and CrewAI.
 
 - **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - Decentralized Rust EDR and 7-Ring AI agent control plane enforcing formal Cedar policies, behavioral drift tracking, out-of-sandbox credential sealing, and multi-voter consensus.
+- **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - Continuous 7-ring Cedar reference monitor, 5-level immutable authority lattice, and past-only metric first-order temporal policy (Dogwood).
 ## 🌐 Gateways & Proxies
 *Mediating traffic between agents, tools, and models — the network layer of the control plane.*
 
@@ -60,6 +61,7 @@ This list is organized around that lifecycle rather than around any single vendo
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin; includes a secure runtime environment for autonomous coding agents to operate without touching the host machine's sensitive files.
 
 - **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - Cross-platform AI agent containment runtime providing zero-overhead Wasmtime, Windows AppContainer, and Linux Landlock v3 + seccomp-bpf sandboxing for autonomous agent tool execution.
+- **[OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw)** - OS-enforced dual-plane Wasmtime sandbox (pooling allocator, zero-fuel hot path <50µs, 64MiB limit), eBPF CO-RE, and Windows AppContainer/Job Objects.
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools that test agents for security flaws, unauthorized actions, and injection susceptibility.*
 
