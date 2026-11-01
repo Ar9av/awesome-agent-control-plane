@@ -33,6 +33,7 @@ This list is organized around that lifecycle rather than around any single vendo
 ## 🚧 Policy Enforcement & Runtime Control
 *The core control-plane layer: evaluating and blocking agent tool calls against policy before they execute.*
 
+- **[Agent Runtime Guard](https://github.com/DSHCorrectover/agent-runtime-guard)** - Fail-closed MCP/tool-call runtime interceptor with offline-verifiable Ed25519 receipts (`npx -y agent-runtime-guard`).
 - **[Prismor](https://github.com/PrismorSec/prismor)** - Self-hosted runtime control plane for AI coding agents. Hooks into Claude Code, Codex, and other agent SDKs to block dangerous commands, secret leaks, and prompt injection before they execute.
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps, keeping agents on topic and enforcing safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM inputs/outputs against structural and semantic rules.
@@ -71,6 +72,7 @@ This list is organized around that lifecycle rather than around any single vendo
 ## 🔍 Static Analysis & Linters
 *Analyzing agent configuration and orchestration logic before deployment.*
 
+- **[correctover-scan](https://github.com/DSHCorrectover/correctover-scan)** - MCP/agent config and published-bundle scanner (SARIF, OWASP AISVS).
 - **[Aguara](https://github.com/garagon/aguara)** - A static security scanner for AI agent skills and MCP server configurations, detecting prompt injection, credential leaks, and supply-chain attacks.
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** - Visualizes agent workflows (LangGraph, CrewAI, AutoGen), detecting risky tool usage and permission loops.
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - Design-time analysis calculating "Agentic Entropy" to quantify unpredictability and loop/action risk in agent architectures.
