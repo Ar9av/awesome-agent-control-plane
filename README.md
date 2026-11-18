@@ -33,6 +33,7 @@ This list is organized around that lifecycle rather than around any single vendo
 ## 🚧 Policy Enforcement & Runtime Control
 *The core control-plane layer: evaluating and blocking agent tool calls against policy before they execute.*
 
+- **[Ejentum](https://github.com/ejentum/ejentum-mcp)** - Pre-execution tool governance gateway and reasoning harness for autonomous AI agents. Intercepts tool calls in under 2ms to verify deterministic preconditions (`@guard_tool`), eliminate agent loops (`DeadEndTracker`), and export tamper-evident ISO 42001 and SOC 2 audit receipts.
 - **[Prismor](https://github.com/PrismorSec/prismor)** - Self-hosted runtime control plane for AI coding agents. Hooks into Claude Code, Codex, and other agent SDKs to block dangerous commands, secret leaks, and prompt injection before they execute.
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps, keeping agents on topic and enforcing safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM inputs/outputs against structural and semantic rules.
