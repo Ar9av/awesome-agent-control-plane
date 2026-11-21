@@ -45,6 +45,7 @@ This list is organized around that lifecycle rather than around any single vendo
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols), adding RBAC, observability, and policy enforcement.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway managing request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[Open Agent API](https://github.com/jiangxingfan1-coder/Open-Agent-API)** - A self-hosted gateway that lets applications call local agents with scoped keys while keeping sensitive actions subject to separate operator approval.
 - **[Portkey AI Gateway](https://github.com/portkey-ai/gateway)** - An AI gateway with integrated guardrails, routing across 1,600+ LLMs behind a single API.
 - **[Kong](https://github.com/Kong/kong)** - The API gateway's AI Gateway plugin extends Kong's existing traffic-control and auth model to LLM and agent traffic.
 - **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** - A managed gateway in front of any LLM provider, adding caching, rate limiting, and logging for agent/LLM traffic.
